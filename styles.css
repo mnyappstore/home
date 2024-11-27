@@ -1,0 +1,163 @@
+/* Genel Ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc; /* Arka plan rengi daha açık */
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.main-header {
+    padding: 20px 0;
+    background-color: #0059b3; /* Daha koyu bir mavi */
+    color: #fff;
+}
+
+.language-switcher {
+    text-align: right;
+}
+
+.lang-btn {
+    background-color: #fff;
+    color: #0059b3;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.lang-btn:hover {
+    background-color: #b3d9ff; /* Hafif mavi ton */
+}
+
+.lang-btn.active {
+    background-color: #003d80;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e6f2ff; /* Açık mavi arka plan */
+}
+
+.logo-wrapper {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0059b3; /* Vurgulu mavi */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ffcc00; /* Sarı ton */
+    color: #0059b3; /* Mavi yazı */
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e6b800; /* Daha koyu sarı */
+}
+
+/* Features Section */
+.features-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0059b3;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: #0059b3;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Footer Section */
+.main-footer {
+    background-color: #003d80; /* Daha koyu mavi */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-footer p {
+    font-size: 0.9rem;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}
